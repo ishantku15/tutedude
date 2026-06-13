@@ -4,6 +4,7 @@ import { renderFooter } from './components/footer.js';
 import { renderHome } from './pages/home.js';
 import { renderCourses } from './pages/courses.js';
 import { renderCourseDetail } from './pages/courseDetail.js';
+import { renderCoursePlayer } from './pages/coursePlayer.js';
 
 // Initialize app
 const router = new Router();
@@ -38,6 +39,12 @@ router.add('/courses', async () => {
 router.add('/course/:slug', async (params) => {
   showLoading();
   await renderCourseDetail(mainContent, params.slug);
+  hideLoading();
+});
+
+router.add('/play/:slug', async (params) => {
+  showLoading();
+  await renderCoursePlayer(mainContent, params.slug);
   hideLoading();
 });
 

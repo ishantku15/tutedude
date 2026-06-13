@@ -98,10 +98,10 @@ export async function renderCourseDetail(container, slug) {
           </div>
 
           <div class="course-detail-actions">
-            <button class="btn btn-primary btn-lg enroll-btn" onclick="window.open('https://www.asmultiverse.com/course/${slug}', '_blank')">
-              Enroll Now — ₹${course.price}
-            </button>
-            <a href="https://wa.me/918570818694?text=Hi! I'm interested in the ${encodeURIComponent(course.title)} course" target="_blank" rel="noreferrer" class="btn btn-outline btn-lg">
+            <a href="#/play/${slug}" class="btn btn-primary btn-lg enroll-btn" style="text-decoration:none;">
+              Access Paid Content
+            </a>
+            <a href="https://wa.me/918570818694?text=Hi! I'm interested in the ${encodeURIComponent(course.title)} course" target="_blank" rel="noreferrer" class="btn btn-outline btn-lg" style="text-decoration:none;">
               Talk to Mentor
             </a>
           </div>
@@ -240,9 +240,9 @@ export async function renderCourseDetail(container, slug) {
         <span class="price-current-lg">₹${course.price}</span>
         <span class="price-original-lg" style="font-size:14px;">₹1,999</span>
       </div>
-      <button class="btn btn-primary enroll-btn-sticky" onclick="window.open('https://www.asmultiverse.com/course/${slug}', '_blank')">
-        Enroll Now
-      </button>
+      <a href="#/play/${slug}" class="btn btn-primary enroll-btn-sticky" style="text-decoration:none;">
+        Access Paid Content
+      </a>
     </div>
   `;
   container.appendChild(stickyCta);

@@ -1,0 +1,27 @@
+/* Course Player Layout */
+.player-layout { display: flex; flex-direction: column; height: 100vh; overflow: hidden; background: var(--bg-dark); }
+.player-header { padding: 16px 24px; background: #000; display: flex; align-items: center; gap: 24px; border-bottom: 1px solid #333; }
+.back-link { color: white; display: flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 500; transition: color 0.2s; }
+.back-link:hover { color: var(--primary-light); }
+.player-course-title { color: white; font-size: 1.2rem; margin: 0; }
+.player-main { display: flex; flex: 1; overflow: hidden; }
+.player-video-section { flex: 1; display: flex; flex-direction: column; padding: 24px; overflow-y: auto; background: var(--bg-dark); }
+.video-wrapper { aspect-ratio: 16/9; width: 100%; max-height: 70vh; background: #000; border-radius: 8px; overflow: hidden; }
+.player-controls { margin-top: 24px; color: white; }
+.player-sidebar { width: 350px; background: #111; border-left: 1px solid #333; display: flex; flex-direction: column; }
+.sidebar-header { padding: 20px; border-bottom: 1px solid #333; color: white; }
+.sidebar-header h3 { margin: 0; font-size: 1.1rem; }
+.sidebar-curriculum { flex: 1; overflow-y: auto; }
+.sidebar-module { border-bottom: 1px solid #222; }
+.sidebar-module-header { padding: 16px 20px; background: #1a1a1a; color: white; }
+.sidebar-module-header h4 { margin: 0 0 4px 0; font-size: 0.95rem; }
+.sidebar-module-header span { font-size: 0.8rem; color: #888; }
+.sidebar-module-lectures { display: flex; flex-direction: column; }
+.sidebar-lecture-btn { display: flex; align-items: flex-start; gap: 12px; padding: 12px 20px; width: 100%; text-align: left; background: transparent; border: none; color: #ccc; cursor: pointer; transition: all 0.2s; font-family: var(--font-primary); font-size: 0.9rem; }
+.sidebar-lecture-btn:hover { background: #222; color: white; }
+.sidebar-lecture-btn.active { background: var(--primary-dark); color: white; font-weight: 500; border-left: 4px solid var(--primary-light); }
+@media(max-width: 992px) { 
+  .player-main { flex-direction: column; overflow-y: auto; } 
+  .player-sidebar { width: 100%; height: auto; border-left: none; border-top: 1px solid #333; } 
+  .player-video-section { overflow: visible; }
+}
