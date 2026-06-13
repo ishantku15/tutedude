@@ -8,9 +8,9 @@ export function renderFooter() {
   footer.innerHTML = `
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="${assetUrl.avif('TutedudeLogo')}" alt="TuteDude" class="footer-logo" loading="lazy">
+        <h2 style="margin: 0 0 16px 0; font-size: 28px; color: var(--primary-light);">As Multiverse</h2>
         <p class="footer-desc">
-          TuteDude is a revolutionary e-learning platform where you can upskill yourself 
+          As Multiverse is a revolutionary e-learning platform where you can upskill yourself 
           with expert mentorship and hands-on courses. Enjoy lifetime access and a 100% refund guarantee.
         </p>
         <div class="footer-social">
@@ -65,7 +65,7 @@ export function renderFooter() {
     </div>
 
     <div class="footer-bottom">
-      <p>&copy; ${new Date().getFullYear()} TuteDude Clone. Educational purposes only.</p>
+      <p>&copy; ${new Date().getFullYear()} As Multiverse. Educational purposes only.</p>
       <div class="footer-bottom-links">
         <a href="#/terms" class="footer-link">Terms & Conditions</a>
         <a href="#/privacy" class="footer-link">Privacy Policy</a>

@@ -1,5 +1,5 @@
-// API Base - uses Vite proxy in dev, Vercel rewrites in prod
-const API_BASE = '/api';
+// API Base - directly hit the backend since CORS is allowed
+const API_BASE = 'https://baby.tutedude.com/api';
 const TUTEDUDE_BASE = 'https://www.tutedude.com';
 const ASSETS_BASE = `${TUTEDUDE_BASE}/assets`;
 

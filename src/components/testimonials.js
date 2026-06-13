@@ -13,7 +13,7 @@ export function createTestimonials() {
       <div class="section-header">
         <span class="section-tag">💬 Student Stories</span>
         <h2 class="section-title">What Our Learners Say</h2>
-        <p class="section-subtitle">Join 90,000+ students who transformed their careers with TuteDude</p>
+        <p class="section-subtitle">Join 90,000+ students who transformed their careers with As Multiverse</p>
       </div>
       <div class="testimonial-carousel">
         <div class="testimonial-track" id="testimonial-track">

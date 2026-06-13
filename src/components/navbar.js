@@ -7,8 +7,8 @@ export function renderNavbar() {
   navbar.className = 'navbar';
   navbar.innerHTML = `
     <div class="navbar-inner">
-      <a href="#/" class="navbar-logo" aria-label="Home">
-        <img src="${assetUrl.avif('TutedudeLogo')}" alt="TuteDude Logo" width="160" height="40" loading="eager">
+      <a href="#/" class="navbar-logo" aria-label="Home" style="font-size: 24px; font-weight: bold; color: var(--primary); text-decoration: none;">
+        As Multiverse
       </a>
 
       <div class="nav-links" id="nav-links">

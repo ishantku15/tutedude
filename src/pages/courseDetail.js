@@ -98,7 +98,7 @@ export async function renderCourseDetail(container, slug) {
           </div>
 
           <div class="course-detail-actions">
-            <button class="btn btn-primary btn-lg enroll-btn" onclick="window.open('https://www.tutedude.com/course/${slug}', '_blank')">
+            <button class="btn btn-primary btn-lg enroll-btn" onclick="window.open('https://www.asmultiverse.com/course/${slug}', '_blank')">
               Enroll Now — ₹${course.price}
             </button>
             <a href="https://wa.me/918570818694?text=Hi! I'm interested in the ${encodeURIComponent(course.title)} course" target="_blank" rel="noreferrer" class="btn btn-outline btn-lg">
@@ -240,7 +240,7 @@ export async function renderCourseDetail(container, slug) {
         <span class="price-current-lg">₹${course.price}</span>
         <span class="price-original-lg" style="font-size:14px;">₹1,999</span>
       </div>
-      <button class="btn btn-primary enroll-btn-sticky" onclick="window.open('https://www.tutedude.com/course/${slug}', '_blank')">
+      <button class="btn btn-primary enroll-btn-sticky" onclick="window.open('https://www.asmultiverse.com/course/${slug}', '_blank')">
         Enroll Now
       </button>
     </div>

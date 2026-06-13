@@ -2,13 +2,13 @@ export const courseDataMap = {
   python: {
     name: "Python",
     infoName: "Python",
-    title: "Learn Python: Start Your Programming Journey with Tutedude",
-    description: "Learn Python with Tutedude's structured curriculum, instant doubt resolution, and hands-on projects. Enjoy lifetime access and a full refund upon completion.",
+    title: "Learn Python: Start Your Programming Journey with As Multiverse",
+    description: "Learn Python with As Multiverse's structured curriculum, instant doubt resolution, and hands-on projects. Enjoy lifetime access and a full refund upon completion.",
     video: "https://www.youtube.com/embed/arYFNnKf94w",
     introStats: { ratings: "4.9+", learners: "90000+", duration: "60h 26m" },
     category: "development",
     icon: "ComboPackIcons_PYTHON",
-    paymentInfo: "Master Python and get industry ready by Tutedude's Python Course.",
+    paymentInfo: "Master Python and get industry ready by As Multiverse's Python Course.",
     topics: [
       { section_name: "Introduction", lectures: ["Installing Python", "Installing Pycharm", "Introduction to programming & Python"] },
       { section_name: "Python Basics", lectures: ["Literals", "Variables", "Keywords", "Primitive Datatypes", "Basic operations with strings", "Type conversion - int, float, str", "Type conversion - boolean", "Arithmetic & Assignment Operators", "Comparison & Logical Operators", "Associativity & Precedence of operators", "Printing to console - the print() function", "Taking input from user - the input() function", "Getting started with PyCharm", "Numeric functions", "Coding exercises"] },
@@ -40,10 +40,10 @@ export const courseDataMap = {
     ],
     details: { ratings: 4.9, lectures: "366", duration: "60h 26m", enrolled: "90000+" },
     reviews: [
-      { img: "https://tutedude.com/images/reviews/Hem%20Vagh.webp", name: "Hem Wagh", review: "I enrolled on the Python course of Tutedude which helped me a lot. Tutedude as a learning platform just didn't provide me with the course but also boosted my confidence level. The mentors were really helpful and always supported me in my learning period by mentoring me, I was just not taught how to code but also how to build something productive." },
-      { img: "https://tutedude.com/images/reviews/Anubhav%20Kaushik.webp", name: "Anubhav Kaushik", review: "IThis course was impressive I'd suggest the course to anyone who wants to learn Python from scratch to an advanced level; I now feel 100% confident that I can continue with more advanced topics without getting lost. The lecturer is clear, concise, and extensive in his explanations and covered the material in a logical order." },
-      { img: "https://tutedude.com/images/reviews/Anil%20Vishwakarma.webp", name: "Anil Vishwakarma", review: "A perfect extensive course for someone who is looking to build a career in Python from great mentors. They were available all the time for any kind of doubts I was facing. I also got hands on many projects throughout the course, now my mentors are helping me to get a good internship." },
-      { img: "https://tutedude.com/images/reviews/Ishika%20Sutar.webp", name: "Ishika Sutar", review: "Enjoyed this course - the concepts were explained clearly and in a manner that a python beginner could understand. The projects and assignments added to the course were like cherries on the cake. After completing the course, I got an internship at a startup which was very insightful for my career. I would highly recommend everyone who wants to learn python." }
+      { img: "https://As Multiverse.com/images/reviews/Hem%20Vagh.webp", name: "Hem Wagh", review: "I enrolled on the Python course of As Multiverse which helped me a lot. As Multiverse as a learning platform just didn't provide me with the course but also boosted my confidence level. The mentors were really helpful and always supported me in my learning period by mentoring me, I was just not taught how to code but also how to build something productive." },
+      { img: "https://As Multiverse.com/images/reviews/Anubhav%20Kaushik.webp", name: "Anubhav Kaushik", review: "IThis course was impressive I'd suggest the course to anyone who wants to learn Python from scratch to an advanced level; I now feel 100% confident that I can continue with more advanced topics without getting lost. The lecturer is clear, concise, and extensive in his explanations and covered the material in a logical order." },
+      { img: "https://As Multiverse.com/images/reviews/Anil%20Vishwakarma.webp", name: "Anil Vishwakarma", review: "A perfect extensive course for someone who is looking to build a career in Python from great mentors. They were available all the time for any kind of doubts I was facing. I also got hands on many projects throughout the course, now my mentors are helping me to get a good internship." },
+      { img: "https://As Multiverse.com/images/reviews/Ishika%20Sutar.webp", name: "Ishika Sutar", review: "Enjoyed this course - the concepts were explained clearly and in a manner that a python beginner could understand. The projects and assignments added to the course were like cherries on the cake. After completing the course, I got an internship at a startup which was very insightful for my career. I would highly recommend everyone who wants to learn python." }
     ]
   },
   uiux: {
@@ -76,10 +76,10 @@ export const courseDataMap = {
     ],
     details: { ratings: 4.9, lectures: 179, duration: "31h 54m", enrolled: "90000+" },
     reviews: [
-      { img: "https://tutedude.com/images/reviews/Manish%20Yadav.webp", name: "Manish Yadav", review: "The best part about Tutedude courses are their mentors, they actually help to the extreme. I am glad I took this course and enjoyed learning throughout. The instant 1:1 help I got is what i liked the most and will recommend everyone to go for it." },
-      { img: "https://tutedude.com/images/reviews/Himachal%20Gupta.webp", name: "Himachal Gupta", review: "I have been a graphic designer previously but I wanted to switch to UI/UX as it has been recently more rewarding as a field. So took up this course and I am very happy that it matched all my expectations and I am now a professional UI/UX designer. Thanks Tutedude!" },
-      { img: "https://tutedude.com/images/reviews/Gaurav%20Kumar.webp", name: "Gaurav Kumar", review: "Explanation of the concepts is too good, many real world examples have been to used to explain the things. The course feels very interesting, throughout the course I was excited to learn new concepts and apply them. Also mentors have been a really great support for me, helping me wherever I got stuck. Thanks!" },
-      { img: "https://tutedude.com/images/reviews/Harshit%20Joshi.webp", name: "Harshit Joshi", review: "The instructor of this course is very sweet, she explains all the concepts very elaboratively. Also mentors are actually the best, if I asked something they will make sure I understand my doubt till the end. Also the assignments and projects they gave me, made sure that I get the industry exposure." }
+      { img: "https://As Multiverse.com/images/reviews/Manish%20Yadav.webp", name: "Manish Yadav", review: "The best part about As Multiverse courses are their mentors, they actually help to the extreme. I am glad I took this course and enjoyed learning throughout. The instant 1:1 help I got is what i liked the most and will recommend everyone to go for it." },
+      { img: "https://As Multiverse.com/images/reviews/Himachal%20Gupta.webp", name: "Himachal Gupta", review: "I have been a graphic designer previously but I wanted to switch to UI/UX as it has been recently more rewarding as a field. So took up this course and I am very happy that it matched all my expectations and I am now a professional UI/UX designer. Thanks As Multiverse!" },
+      { img: "https://As Multiverse.com/images/reviews/Gaurav%20Kumar.webp", name: "Gaurav Kumar", review: "Explanation of the concepts is too good, many real world examples have been to used to explain the things. The course feels very interesting, throughout the course I was excited to learn new concepts and apply them. Also mentors have been a really great support for me, helping me wherever I got stuck. Thanks!" },
+      { img: "https://As Multiverse.com/images/reviews/Harshit%20Joshi.webp", name: "Harshit Joshi", review: "The instructor of this course is very sweet, she explains all the concepts very elaboratively. Also mentors are actually the best, if I asked something they will make sure I understand my doubt till the end. Also the assignments and projects they gave me, made sure that I get the industry exposure." }
     ]
   },
   machinelearning: {
@@ -128,10 +128,10 @@ export const courseDataMap = {
     ],
     details: { enrolled: "90000+", ratings: 4.9, lectures: "133", duration: "30h 43m" },
     reviews: [
-      { img: "https://tutedude.com/images/reviews/Manish%20Yadav.webp", name: "Manish Yadav", review: "The best part about Tutedude courses are their mentors, they actually help to the extreme. I am glad I took this course and enjoyed learning throughout. The instant 1:1 help I got is what i liked the most and will recommend everyone to go for it." },
-      { img: "https://tutedude.com/images/reviews/Himachal%20Gupta.webp", name: "Himachal Gupta", review: "I have been a graphic designer previously but I wanted to switch to UI/UX as it has been recently more rewarding as a field. So took up this course and I am very happy that it matched all my expectations and I am now a professional UI/UX designer. Thanks Tutedude!" },
-      { img: "https://tutedude.com/images/reviews/Gaurav%20Kumar.webp", name: "Gaurav Kumar", review: "Explanation of the concepts is too good, many real world examples have been to used to explain the things. The course feels very interesting, throughout the course I was excited to learn new concepts and apply them. Also mentors have been a really great support for me, helping me wherever I got stuck. Thanks!" },
-      { img: "https://tutedude.com/images/reviews/Harshit%20Joshi.webp", name: "Harshit Joshi", review: "The instructor of this course is very sweet, she explains all the concepts very elaboratively. Also mentors are actually the best, if I asked something they will make sure I understand my doubt till the end. Also the assignments and projects they gave me, made sure that I get the industry exposure." }
+      { img: "https://As Multiverse.com/images/reviews/Manish%20Yadav.webp", name: "Manish Yadav", review: "The best part about As Multiverse courses are their mentors, they actually help to the extreme. I am glad I took this course and enjoyed learning throughout. The instant 1:1 help I got is what i liked the most and will recommend everyone to go for it." },
+      { img: "https://As Multiverse.com/images/reviews/Himachal%20Gupta.webp", name: "Himachal Gupta", review: "I have been a graphic designer previously but I wanted to switch to UI/UX as it has been recently more rewarding as a field. So took up this course and I am very happy that it matched all my expectations and I am now a professional UI/UX designer. Thanks As Multiverse!" },
+      { img: "https://As Multiverse.com/images/reviews/Gaurav%20Kumar.webp", name: "Gaurav Kumar", review: "Explanation of the concepts is too good, many real world examples have been to used to explain the things. The course feels very interesting, throughout the course I was excited to learn new concepts and apply them. Also mentors have been a really great support for me, helping me wherever I got stuck. Thanks!" },
+      { img: "https://As Multiverse.com/images/reviews/Harshit%20Joshi.webp", name: "Harshit Joshi", review: "The instructor of this course is very sweet, she explains all the concepts very elaboratively. Also mentors are actually the best, if I asked something they will make sure I understand my doubt till the end. Also the assignments and projects they gave me, made sure that I get the industry exposure." }
     ]
   },
   mernstack: {
@@ -333,14 +333,14 @@ export function getCourseData(slug) {
 }
 
 export const testimonials = [
-  { name: "John Doe", review: "This platform is amazing!", course: "Python", rating: 5, image: "https://www.tutedude.com/assets/avif/TestimonialImg1.avif" },
-  { name: "Jane Smith", review: "I learned so much.", course: "UI/UX", rating: 5, image: "https://www.tutedude.com/assets/avif/TestimonialImg2.avif" },
-  { name: "Mike Johnson", review: "Highly recommended.", course: "Data Science", rating: 4, image: "https://www.tutedude.com/assets/avif/TestimonialImg3.avif" },
-  { name: "Emily Davis", review: "Great instructors.", course: "MERN Stack", rating: 5, image: "https://www.tutedude.com/assets/avif/TestimonialImg4.avif" },
-  { name: "Chris Wilson", review: "The 100% refund works!", course: "Machine Learning", rating: 5, image: "https://www.tutedude.com/assets/avif/TestimonialImg5.avif" },
-  { name: "Anna Brown", review: "Loved the projects.", course: "React JS", rating: 4, image: "https://www.tutedude.com/assets/avif/TestimonialImg6.avif" },
-  { name: "David Lee", review: "Mentorship is top notch.", course: "Java", rating: 5, image: "https://www.tutedude.com/assets/avif/TestimonialImg7.avif" },
-  { name: "Sarah Taylor", review: "Best learning experience.", course: "Ethical Hacking", rating: 5, image: "https://www.tutedude.com/assets/avif/TestimonialImg8.avif" }
+  { name: "John Doe", review: "This platform is amazing!", course: "Python", rating: 5, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg1.avif" },
+  { name: "Jane Smith", review: "I learned so much.", course: "UI/UX", rating: 5, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg2.avif" },
+  { name: "Mike Johnson", review: "Highly recommended.", course: "Data Science", rating: 4, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg3.avif" },
+  { name: "Emily Davis", review: "Great instructors.", course: "MERN Stack", rating: 5, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg4.avif" },
+  { name: "Chris Wilson", review: "The 100% refund works!", course: "Machine Learning", rating: 5, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg5.avif" },
+  { name: "Anna Brown", review: "Loved the projects.", course: "React JS", rating: 4, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg6.avif" },
+  { name: "David Lee", review: "Mentorship is top notch.", course: "Java", rating: 5, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg7.avif" },
+  { name: "Sarah Taylor", review: "Best learning experience.", course: "Ethical Hacking", rating: 5, image: "https://www.As Multiverse.com/assets/avif/TestimonialImg8.avif" }
 ];
 
 export const faqData = [

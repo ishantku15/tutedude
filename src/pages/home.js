@@ -159,7 +159,7 @@ export async function renderHome(container) {
   features.innerHTML = `
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">✨ Why TuteDude</span>
+        <span class="section-tag">✨ Why As Multiverse</span>
         <h2 class="section-title">Why 90,000+ Learners Choose Us</h2>
       </div>
       <div class="features-grid">
