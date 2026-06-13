@@ -152,7 +152,7 @@ export async function renderCoursePlayer(container, slug) {
       const title = btn.dataset.title;
       const mod = btn.dataset.module;
 
-      player.src = \`https://www.youtube.com/embed?listType=search&list=\${query}\`;
+      player.src = `https://www.youtube.com/embed?listType=search&list=${query}`;
 
       titleEl.textContent = title;
       moduleEl.textContent = mod;
